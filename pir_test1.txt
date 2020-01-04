@@ -1,0 +1,13 @@
+#Import GPIO and time libraries.
+import RPi.GPIO as GPIO
+import time
+
+#Set variables for the GPIO pins driving the lamp relay channels, and receiving for
+# the PIR sensor.
+pirPin = 7
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(pirPin, GPIO.IN)
+
+while True:
+	

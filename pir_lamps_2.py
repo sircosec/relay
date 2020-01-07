@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 
-# this version logs actions taken to /var/log/
+# this version logs actions taken to /var/log/pir_lamps
 logfile = "/var/log/pir_lamps/pir_lamps.log"
 # variable which controls the time interval between the lamps turning on and off
 sleeptime = .25
